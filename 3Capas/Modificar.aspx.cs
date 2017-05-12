@@ -7,15 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace _3Capas
 {
-    public partial class Login : System.Web.UI.Page
+    public partial class modificar : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-            string usuario = txtusuario.Text;
-            string contraseña = txtcontraseña.Text;
-        }
-
-        protected void Button1_Click(object sender, EventArgs e)
         {
 
         }

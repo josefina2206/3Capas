@@ -65,6 +65,8 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="eliminar.aspx" />
+    <Content Include="Modificar.aspx" />
+    <Content Include="Styles\estilo.css" />
     <Content Include="Insertar.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Principal.aspx" />
@@ -120,6 +122,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modificar.aspx.cs">
+      <DependentUpon>Modificar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modificar.aspx.designer.cs">
+      <DependentUpon>Modificar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Principal.aspx.cs">
       <DependentUpon>Principal.aspx</DependentUpon>

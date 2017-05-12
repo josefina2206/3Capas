@@ -14,17 +14,17 @@
         <div class="header">
             <div class="title">
                 <h1>
-                    Aplicación Tres Capas Nota 2
+                   <img class="img" src="http://www.t-winner.com/sites/default/files/team-logos/club_deportivo_universidad_catolica_logo.gif?width=500&height=500" />
+                    UNIVERSIDAD CATOLICA
                 </h1>
             </div>
             <div class="clear hideSkiplink">
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
-                        <asp:MenuItem NavigateUrl="~/Principal.aspx" Text="Buscar todo"/>
+                        <asp:MenuItem NavigateUrl="~/Principal.aspx" Text="Jugadores"/>
                         <asp:MenuItem NavigateUrl="~/Principalbuscarporid.aspx" Text="Buscar por nombre"/>
                         <asp:MenuItem NavigateUrl="~/Insertar.aspx" Text="Agregar"/>
-                        <asp:MenuItem NavigateUrl="~/eliminar.aspx" Text="Eliminar"/>
-                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="Acerca"/>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="Acerca de "/>
                     </Items>
                 </asp:Menu>
             </div>

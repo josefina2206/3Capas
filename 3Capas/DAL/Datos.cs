@@ -42,11 +42,11 @@ namespace _3Capas.DAL
             catch { return null; }
         }
 
-        public void insertar(String nombre, String apellido, String email, String ciudad)
+        public void insertar(String nombre, String apellido, String email, String ciudad, bool es_jugador, string posicion, string password, int numero, string foto)
         {
             try
             {
-                string sql = "exec insertarUsuario '" + nombre + "', '"+ apellido+ "', '"+email+ "', '"+ciudad+"'";
+                string sql = "exec insertarUsuario '" + nombre + "', '"+ apellido+ "', '"+email+ "', '"+ciudad+ "', '" + es_jugador + "' , '" + posicion + "', '" + password + "', '" + numero + "', '" + foto + "'";
                 insertar_dt(sql);
             }
             catch { }

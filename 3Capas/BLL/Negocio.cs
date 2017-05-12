@@ -15,13 +15,6 @@ namespace _3Capas.BLL
         public DataTable obtenerDatos()
         {
             DataTable dt = data.obtenerDatos();
-            dt.Columns.Add("Perfil");
-
-            foreach (DataRow fila in dt.Rows)
-            {
-                fila["Perfil"] = "Ver Foto de " + fila["NOMBRE"];
-            }
-
             return dt;
         }
 
@@ -38,9 +31,9 @@ namespace _3Capas.BLL
             return dt;
         }
 
-        public void insertar(String nombre, String apellido, String email, String ciudad)
+        public void insertar(String nombre, String apellido, String email, String ciudad, bool es_jugador, string posicion, string password, int numero, string foto )
         {
-            data.insertar(nombre, apellido, email, ciudad);
+            data.insertar(nombre, apellido, email, ciudad, es_jugador, posicion, password, numero, foto);
         }
     }
 }

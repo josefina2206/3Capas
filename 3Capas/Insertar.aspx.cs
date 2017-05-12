@@ -21,9 +21,14 @@ namespace _3Capas
             string apellido = txtApellido.Text;
             string email = txtEmail.Text;
             string ciudad = txtCiudad.Text;
+            bool es_jugador = radioesjugador.Checked;
+            string posicion = txtposicion.Text;
+            string password = txtpassword.Text;
+            int numero = Convert.ToInt32(txtnumero.Text);
+            string foto = txtfoto.Text;
 
             Negocio bll = new Negocio();
-            bll.insertar(nombre, apellido, email, ciudad);
+            bll.insertar(nombre, apellido, email, ciudad, es_jugador, posicion, password, numero, foto);
         }
     }
 }

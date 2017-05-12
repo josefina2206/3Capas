@@ -13,12 +13,13 @@ body
 
 a:link, a:visited
 {
-    color: #034af3;
+    /*color: #034af3;*/
 }
 
 a:hover
 {
-    color: #1d60ff;
+    color: #92C6E4;
+
     text-decoration: none;
 }
 
@@ -99,7 +100,8 @@ first child of the left and right table columns */
     position: relative;
     margin: 0px;
     padding: 0px;
-    background: #4b6c9e;
+    margin-bottom:20px;
+    background: #0063BD;
     width: 100%;
 }
 
@@ -144,7 +146,7 @@ first child of the left and right table columns */
 
 div.hideSkiplink
 {
-    background-color:#3a4f63;
+    background-color:#0E5196;
     width:100%;
 }
 
@@ -163,11 +165,11 @@ div.menu ul
 
 div.menu ul li a, div.menu ul li a:visited
 {
-    background-color: #465c71;
-    border: 1px #4e667d solid;
+    /*background-color: #2D7EC8;
+    border: 1px #4e667d solid;*/
     color: #dde4ec;
     display: block;
-    line-height: 1.35em;
+    /*line-height: 1.35em;*/
     padding: 4px 20px;
     text-decoration: none;
     white-space: nowrap;
@@ -175,7 +177,7 @@ div.menu ul li a, div.menu ul li a:visited
 
 div.menu ul li a:hover
 {
-    background-color: #bfcbd6;
+    background-color: #92C6E4;
     color: #465c71;
     text-decoration: none;
 }
@@ -236,6 +238,16 @@ div.accountInfo
     width: 42%;
 }
 
+.boton 
+{
+    border-radius: 10px;
+    border:none;
+    background: rgb(255, 0, 0);
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    color: rgb(255, 255, 255);
+}
+
 /* MISC  
 ----------------------------------------------------------*/
 
@@ -246,6 +258,7 @@ div.accountInfo
 
 .title
 {
+    margin-top: 5px;
     display: block;
     float: left;
     text-align: left;
@@ -289,6 +302,12 @@ div.accountInfo
 
 .submitButton
 {
-    text-align: right;
-    padding-right: 10px;
+    border-radius: 10px;
+    border:none;
+ }   
+
+.img {
+    margin: auto;
+    max-width: 70px;
+    vertical-align: middle;
 }

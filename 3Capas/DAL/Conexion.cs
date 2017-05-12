@@ -1,11 +1,4 @@
-﻿/*
- * Web:          AndresVergara's Blog.
- * Autor:        G. Andres Vergara Rojas.
- * Contacto:     andresvergara.cl@gmail.com
- * Fecha:        Mayo 2012
- */
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
